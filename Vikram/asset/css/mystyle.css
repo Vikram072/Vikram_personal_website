@@ -1,0 +1,209 @@
+/* Custom CSS */
+
+/* social */
+.social_w3ls_pvt ul {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	padding: 0;
+	display: flex;
+
+}
+
+.social_w3ls_pvt ul li {
+	list-style: none;
+	margin: 0 60px 0 0;
+}
+
+.social_w3ls_pvt ul li:last-child {
+	margin-right: 0;
+}
+
+.social_w3ls_pvt ul li .fa {
+	font-size: 25px;
+	color: #262626;
+	line-height: 45px;
+	transition: .5s;
+
+}
+
+.social_w3ls_pvt ul li a {
+	position: relative;
+	display: block;
+	width: 45px;
+	height: 45px;
+	background-color: #fff;
+	text-align: center;
+	transform: perspective(100px) rotate(-30deg) skew(25deg) translate(0, 0);
+	transition: .5s;
+	box-shadow: -20px 20px 10px #000;
+}
+
+.social_w3ls_pvt ul li a::before {
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: -20px;
+	height: 100%;
+	width: 20px;
+	background: #b1b1b1;
+	transition: .5s;
+	transform: rotate(0deg) skewY(-45deg);
+}
+
+.social_w3ls_pvt ul li a::after {
+	content: "";
+	position: absolute;
+	top: 45px;
+	left: -11px;
+	height: 20px;
+	width: 100%;
+	background: #b1b1b1;
+	transition: .5s;
+	transform: rotate(0deg) skewX(-45deg);
+}
+
+.social_w3ls_pvt ul li a:hover {
+	transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+}
+
+.social_w3ls_pvt ul li a:hover {
+	box-shadow: -50px 50px 50px #757575;
+}
+
+.social_w3ls_pvt ul li a .fa {
+	color: #fff;
+}
+
+.social_w3ls_pvt ul li a:hover {
+	transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+	box-shadow: -50px 50px 50px #757575;
+}
+
+.social_w3ls_pvt ul li:nth-child(1) a {
+	background: #3b5999;
+}
+
+.social_w3ls_pvt ul li:nth-child(1) a:before {
+	background: #2e4a86;
+}
+
+.social_w3ls_pvt ul li:nth-child(1) a:after {
+	background: #4a69ad;
+}
+
+.social_w3ls_pvt ul li:nth-child(2) a {
+	background: #55acee;
+}
+
+.social_w3ls_pvt ul li:nth-child(2) a:before {
+	background: #4184b7;
+}
+
+.social_w3ls_pvt ul li:nth-child(2) a:after {
+	background: #4d9fde;
+}
+
+.social_w3ls_pvt ul li:nth-child(3) a {
+	background: #dd4b39;
+}
+
+.social_w3ls_pvt ul li:nth-child(3) a:before {
+	background: #c13929;
+}
+
+.social_w3ls_pvt ul li:nth-child(3) a:after {
+	background: #e83322;
+}
+
+.social_w3ls_pvt ul li:nth-child(4) a {
+	background: #0077B5;
+}
+
+.social_w3ls_pvt ul li:nth-child(4) a:before {
+	background: #036aa0;
+}
+
+.social_w3ls_pvt ul li:nth-child(4) a:after {
+	background: #0d82bf;
+}
+
+.social_w3ls_pvt ul li:nth-child(5) a {
+	background: #bd081c;
+}
+
+.social_w3ls_pvt ul li:nth-child(5) a:before {
+	background: #bd081c;
+}
+
+.social_w3ls_pvt ul li:nth-child(5) a:after {
+	background: #bd081c;
+}
+
+/* //social */
+
+@media screen and (max-width: 991px) {
+	.social_w3ls_pvt ul {
+		top: 38%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.social_w3ls_pvt ul li a {
+		width: 37px;
+		height: 37px;
+	}
+	.social_w3ls_pvt ul li a::after {
+		top: 36px;
+		left: -9px;
+	}
+	.social_w3ls_pvt ul li .fa {
+		font-size: 19px;
+		line-height: 38px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.social_w3ls_pvt ul li {
+		margin: 0 40px 0 0;
+	}
+}
+
+@media screen and (max-width: 384px) {
+	.social_w3ls_pvt ul li {
+		margin: 0 29px 0 0;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.social_w3ls_pvt ul li a {
+		width: 30px;
+		height: 30px;
+	}
+	.social_w3ls_pvt ul li a::after {
+		top: 29px;
+	}
+	.social_w3ls_pvt ul li .fa {
+		font-size: 17px;
+		line-height: 27px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.social_w3ls_pvt ul li {
+		margin: 0 24px 0 0;
+	}
+	.social_w3ls_pvt ul li a {
+		width: 25px;
+		height: 25px;
+	}
+	.social_w3ls_pvt ul li a::after {
+		top: 24px;
+		left: -9px;
+	}
+	.social_w3ls_pvt ul li .fa {
+		font-size: 14px;
+	}
+}
